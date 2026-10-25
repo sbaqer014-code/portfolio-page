@@ -1,0 +1,121 @@
+/* Whole Page Styling */
+body {
+    background-color: #f4f6f8;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header & Footer Styling */
+header, footer {
+    background-color: #1e293b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Subtitle Class Selector */
+.subtitle {
+    font-size: 1.1rem;
+    color: #cbd5e1;
+}
+
+/* Navigation Links */
+nav a {
+    color: #38bdf8;
+    margin: 0 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Layout */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+/* Section Common Styling */
+.portfolio-section {
+    border: 1px solid #cbd5e1;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* ID Selectors for Section Background Colors */
+#about {
+    background-color: #ffffff;
+}
+
+#skills {
+    background-color: #f8fafc;
+}
+
+#projects {
+    background-color: #f1f5f9;
+}
+
+#contact {
+    background-color: #ffffff;
+}
+
+/* Headings Styling */
+h1 {
+    font-size: 2.2rem;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: #0f172a;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #1e293b;
+}
+
+/* Image Styling */
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 150px;
+    border: 3px solid #0f172a;
+    border-radius: 50%;
+}
+
+/* Project Card Class Selector */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Links Styling */
+a {
+    color: #0284c7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Back to Top Link */
+footer a {
+    color: #38bdf8;
+}
